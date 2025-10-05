@@ -1,0 +1,107 @@
+.app-container {
+    text-align: center;
+    margin-top: 40px;
+    font-family: "Segoe UI", sans-serif;
+    color: #333;
+}
+
+.title {
+    font-size: 2.5rem;
+    color: #2d6cdf;
+    margin-bottom: 20px;
+}
+
+.game {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.game-board {
+    display: flex;
+    flex-direction: column;
+}
+
+.board-row {
+    display: flex;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    background: #f7f7f7;
+    border: 2px solid #ccc;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    color: #333;
+}
+
+.square:hover {
+    background: #e3eaff;
+}
+
+.square.winning {
+    background: #a9ffb8;
+    border-color: #4caf50;
+}
+
+.game-info {
+    text-align: left;
+    background: #ffffffcc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+}
+
+.status {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.sort-btn,
+.restart-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    margin: 5px 0;
+    font-weight: 600;
+    cursor: pointer;
+    background: #2d6cdf;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.restart-btn {
+    background: #4caf50;
+}
+
+.sort-btn:hover {
+    background: #1e53b6;
+}
+
+.restart-btn:hover {
+    background: #3b923e;
+}
+
+ol {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    margin: 6px 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+.current-move {
+    color: #ff6600;
+    font-weight: 600;
+}

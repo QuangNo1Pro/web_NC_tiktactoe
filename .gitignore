@@ -1,0 +1,8 @@
+# Node modules 
+node_modules/
+# Thư mục build 
+dist/
+# File log lỗi
+npm-debug.log*
+*.log
+
